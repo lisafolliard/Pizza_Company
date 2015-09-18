@@ -19,8 +19,33 @@ Pizza.prototype.cost = function() {
     cost += 8;
   }
 
+  if(this.ifToppings) === "standard" {
+    cost = cost;
+  }
+
   if(this.ifToppings === "premium") {
     cost += 5;
   }
 return cost;
 }
+
+
+$(document).ready(function() {
+  $("form#order-create").submit(function(event) {
+    var inputtedOrderSize = $("input[name=order-size]:checked").val();
+    var inputtedIfToppings = $("input[name=if-toppings]:checked").val();
+
+    var newPizza = new Pizza(inputtedOrderSize, inputtedIfToppings);
+
+    $(".order-show").show();
+
+
+
+
+
+
+
+
+    event.preventDefault();
+  });
+});

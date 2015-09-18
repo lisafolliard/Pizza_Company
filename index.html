@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Patty's Pies</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Patty's Pies</h1>
+        <h2>Build your pizza!</h2>
 
+        <form id="order-create">
+          <div class="form-group">
+            <h3>Select Quantity</h3>
 
+          </div>
 
+          <div class="form-group">
+            <h3>Select Size</h3>
+            <input type="radio" name="order-size" value="small"> Small ($9)
+            <input type="radio" name="order-size" value="medium"> Medium (add $4)
+            <input type="radio" name="order-size" value="large"> Large (add $8)
+          </div>
+
+          <div class="form-group">
+            <h3>Add Toppings?</h3>
+            <input type="radio" name="if-toppings" value="standard"> standard toppings (free)
+            <input type="radio" name="if-toppings" value="premium"> include any 5 toppings (add $5)
+          </div>
+
+          <button type="submit" class="btn btn-primary">Click to Purchase</button>
+        </form>
+      </div>
+
+      <div class="order-show">
+        <span class="order-details"></span>
+        <p>$<span class="order-cost"></span></p>
+      </div>
+
+    </div>
   </body>
 </html>
