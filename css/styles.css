@@ -4,15 +4,19 @@
 
 body {
   background-color: olive;
+  background: url('8slices.jpg') center center fixed;
 }
 
 .jumbotron {
   background-color: beige;
-}
 
+  background-size: cover;
+  text-align: center;
+}
 
 h1 {
   text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 h3 {

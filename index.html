@@ -3,6 +3,7 @@
   <head>
     <link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Patty's Pies</title>
@@ -14,10 +15,18 @@
         <h2>Build your pizza!</h2>
 
         <form id="order-create">
-          <div class="form-group">
+          <!-- <div class="form-group">
             <h3>Select Quantity</h3>
+            <input type="text" class="form-control" id="quantity">
+          </div> -->
 
+
+          <div class="form-group">
+              <label for="select-quantity">Select Quantity</label>
+              <input type="text" class="form-control" id="select-quantity">
           </div>
+
+
 
           <div class="form-group">
             <h3>Select Size</h3>
@@ -37,8 +46,9 @@
       </div>
 
       <div class="order-show">
+        <h2>Order Details </h2>
         <span class="order-details"></span>
-        <p>$<span class="order-cost"></span></p>
+        <p>Total: $<span class="order-cost"></span></p>
       </div>
 
     </div>
