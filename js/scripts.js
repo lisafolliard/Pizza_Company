@@ -8,27 +8,26 @@ Pizza.prototype.cost = function() {
   var cost = 9;
 
   // if(this.quantity > 1) {
-  //   cost = cost * quantity;
-  //   // cost += 10;
+  //   cost = cost*quantity;
   // }
 
-  if(this.orderSize === "small") {
+  if(this.orderSize === "Small") {
     cost += 0;
   }
 
-  if(this.orderSize === "medium") {
+  if(this.orderSize === "Medium") {
     cost += 4;
   }
 
-  if(this.orderSize === "large") {
+  if(this.orderSize === "Large") {
     cost += 8;
   }
 
-  if(this.ifToppings === "standard") {
+  if(this.ifToppings === "Standard") {
     cost += 0;
   }
 
-  if(this.ifToppings === "premium") {
+  if(this.ifToppings === "Premium") {
     cost += 5;
   }
 return cost;

@@ -8,6 +8,7 @@ body {
 }
 
 .jumbotron {
+  padding: 20px;
   background-color: beige;
 
   background-size: cover;

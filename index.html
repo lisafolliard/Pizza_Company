@@ -22,35 +22,34 @@
 
 
           <div class="form-group">
-              <label for="select-quantity">Select Quantity</label>
-              <input type="text" class="form-control" id="select-quantity">
+            <h3>Select Quantity</h3>
+            <label for="select-quantity"></label>
+            <input type="text" class="form-control" id="select-quantity">
           </div>
-
-
 
           <div class="form-group">
             <h3>Select Size</h3>
-            <input type="radio" name="order-size" value="small"> Small ($9)
-            <input type="radio" name="order-size" value="medium"> Medium (add $4)
-            <input type="radio" name="order-size" value="large"> Large (add $8)
+            <input type="radio" name="order-size" value="Small"> Small ($9)
+            <input type="radio" name="order-size" value="Medium"> Medium (add $4)
+            <input type="radio" name="order-size" value="Large"> Large (add $8)
           </div>
 
           <div class="form-group">
-            <h3>Add Toppings?</h3>
-            <input type="radio" name="if-toppings" value="standard"> standard toppings (free)
-            <input type="radio" name="if-toppings" value="premium"> include any 5 toppings (add $5)
+            <h3>Select Toppings</h3>
+            <input type="radio" name="if-toppings" value="Standard"> standard toppings (free)
+            <input type="radio" name="if-toppings" value="Premium"> include any 5 toppings (add $5)
           </div>
 
           <button type="submit" class="btn btn-primary">Click to Purchase</button>
         </form>
-      </div>
 
-      <div class="order-show">
-        <h2>Order Details </h2>
-        <span class="order-details"></span>
-        <p>Total: $<span class="order-cost"></span></p>
-      </div>
+        <div class="order-show">
+          <h2>Order Details </h2>
+          <span class="order-details"></span>
+          <p>Total: $<span class="order-cost"></span></p>
+        </div>
 
+      </div>
     </div>
   </body>
 </html>
