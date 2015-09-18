@@ -14,6 +14,13 @@ body {
   text-align: center;
 }
 
+.form-control {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+  align: center;
+}
+
 h1 {
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
