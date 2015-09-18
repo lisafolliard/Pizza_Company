@@ -33,10 +33,13 @@ Pizza.prototype.cost = function() {
 return cost;
 };
 
+function resetFields() {
+  $("input#select-quantity").val("");
+}
+
 
 $(document).ready(function() {
   $("form#order-create").submit(function(event) {
-    event.preventDefault();
     var inputtedQuantity = parseInt($("input#select-quantity").val());
     var inputtedOrderSize = $("input[name=order-size]:checked").val();
     var inputtedIfToppings = $("input[name=if-toppings]:checked").val();
@@ -49,5 +52,8 @@ $(document).ready(function() {
 
     $(".order-cost").text(newPizza.cost());
 
+    $(resetFields());
+    
+    event.preventDefault();
   });
 });
