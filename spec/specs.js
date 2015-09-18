@@ -13,4 +13,9 @@ describe("Pizza", function() {
     var newPizza = new Pizza(1, "Small", "Premium");
     expect(newPizza.ifToppings).to.equal("Premium");
   });
+
+  it("determine the cost of a pizza", function() {
+    var newPizza = new Pizza(1, "medium", "premium");
+    expect(newPizza.cost()).to.equal(18);
+  });
 });
