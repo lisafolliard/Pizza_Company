@@ -15,10 +15,10 @@ Clone this repository to your local system and run index.html in your web browse
 
 ## Technologies Used
 
-JavaScript
-jQuery
-HTML
-CSS
+* JavaScript
+* jQuery
+* HTML
+* CSS
 
 
 ### Legal
