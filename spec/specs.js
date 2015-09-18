@@ -15,7 +15,7 @@ describe("Pizza", function() {
   });
 
   it("determine the cost of a pizza", function() {
-    var newPizza = new Pizza(1, "medium", "premium");
+    var newPizza = new Pizza(1, "Medium", "Premium");
     expect(newPizza.cost()).to.equal(18);
   });
 });
