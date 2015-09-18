@@ -48,12 +48,12 @@ $(document).ready(function() {
 
     $(".order-show").show();
 
-    $(".order-details").append("Order Size: " + inputtedOrderSize + "</br> Toppings: " + inputtedIfToppings);
+    $(".order-details").append("Order Quantity: " + inputtedQuantity + "</br> Order Size: " + inputtedOrderSize + "</br> Toppings: " + inputtedIfToppings);
 
     $(".order-cost").text(newPizza.cost());
 
     $(resetFields());
-    
+
     event.preventDefault();
   });
 });
