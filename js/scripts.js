@@ -30,7 +30,7 @@ Pizza.prototype.cost = function() {
   if(this.ifToppings === "Premium") {
     cost += 5;
   }
-return cost;
+  return cost;
 };
 
 function resetFields() {
