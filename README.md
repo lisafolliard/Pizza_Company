@@ -1,6 +1,6 @@
 # Pizza Company
 
-##### Version 1.0, 9/18/15
+##### Version 1.0, 18 September 2015
 
 #### By _**Lisa Folliard**_
 
