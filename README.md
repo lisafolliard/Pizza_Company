@@ -1,6 +1,6 @@
 # Pizza Company
 
-##### An application that allows users to create a pizza order. 9/18/2015
+##### Version 1.0, 18 September 2015
 
 #### By _**Lisa Folliard**_
 
