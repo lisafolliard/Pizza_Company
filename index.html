@@ -17,19 +17,19 @@
         <form id="order-create">
           <div class="form-group">
             <h3>Select Quantity</h3>
-            <input type="text" class="form-control" id="select-quantity">
+            <input type="text" required class="form-control" id="select-quantity">
           </div>
 
           <div class="form-group">
             <h3>Select Size</h3>
-            <input type="radio" name="order-size" value="Small"> Small ($9)
+            <input type="radio" required name="order-size" value="Small"> Small ($9)
             <input type="radio" name="order-size" value="Medium"> Medium (add $4)
-            <input type="radio" name="order-size" value="Large"> Large (add $8)
+            <input type="radio"  name="order-size" value="Large"> Large (add $8)
           </div>
 
           <div class="form-group">
             <h3>Select Toppings</h3>
-            <input type="radio" name="if-toppings" value="Standard"> Standard toppings (free)
+            <input type="radio" required name="if-toppings" value="Standard"> Standard toppings (free)
             <input type="radio" name="if-toppings" value="Premium"> Include any 5 toppings (add $5)
           </div>
 
