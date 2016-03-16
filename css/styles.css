@@ -9,9 +9,12 @@ body {
 
 .jumbotron {
   padding: 20px;
+  padding-bottom: 50px;
   background-color: beige;
   background-size: cover;
   text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .form-control {
@@ -24,6 +27,11 @@ body {
 h1 {
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
+  padding-top: -45px;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 h3 {
