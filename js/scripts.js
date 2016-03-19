@@ -7,20 +7,16 @@ function Pizza(quantity, orderSize, ifToppings) {
 Pizza.prototype.cost = function() {
   var cost = 9;
 
-  if(this.quantity > 1) {
-    cost = cost * this.quantity;
-  }
-
   if(this.orderSize === "Small") {
-    cost += 0;
+    cost = (cost += 0) * this.quantity;
   }
 
   if(this.orderSize === "Medium") {
-    cost += 4;
+    cost = (cost += 5) * this.quantity;
   }
 
   if(this.orderSize === "Large") {
-    cost += 8;
+    cost = (cost += 9) * this.quantity;
   }
 
   if(this.ifToppings === "Standard") {
