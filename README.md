@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a simple JavaScript application that allows users to select quantity, size and premium toppings to create a pizza order. The order details, including total cost, are returned.
+A simple JavaScript application that allows users to select quantity, size and premium toppings to create a pizza order. The order details, including total cost, are returned.
 
 
 ## Setup
