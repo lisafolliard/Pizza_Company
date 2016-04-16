@@ -10,7 +10,7 @@ A simple JavaScript application that allows users to select quantity, size and p
 
 
 ## Setup
-Clone this repository to your local system and run index.html in your web browser.
+Clone this repository to your local system and run index.html in your web browser
 
 
 ## Technologies Used
