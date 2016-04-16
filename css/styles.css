@@ -3,18 +3,23 @@
 }
 
 body {
-  background-color: olive;
-  background: url('8slices.jpg') center center fixed;
+  background-color: #bfafaf;
+  background: url('https://images.unsplash.com/photo-1440637475816-2e8bf1d4b6f3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9000dbcc94e0bad6c5005dc1d867b105') center center fixed;
 }
 
 .jumbotron {
   padding: 20px;
-  padding-bottom: 50px;
-  background-color: beige;
+  padding-bottom: 20px;
+  /*background-color: #E6E1DF;*/
   background-size: cover;
   text-align: center;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.jumbotron h1 {
+  font-size: 3.5em;
 }
 
 .form-control {
@@ -36,5 +41,6 @@ h2 {
 }
 
 h3 {
-  color: green;
+  color: black;
+  font-size: 1.5em;
 }
