@@ -1,6 +1,6 @@
 # Pizza Company
 
-##### Version 1.0, 18 September 2015
+##### September 18, 2015
 
 #### By _**Lisa Folliard**_
 
@@ -19,6 +19,7 @@ Clone this repository to your local system and run index.html in your web browse
 * jQuery
 * HTML
 * CSS
+* Bootstrap
 
 
 ### Legal
